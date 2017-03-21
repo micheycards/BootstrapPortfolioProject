@@ -21,7 +21,7 @@ export default StyleSheet.create({
     },
     "carousel item": {
         "height": 240,
-        "backgroundColor": "#777"
+        "backgroundColor": "#eee"
     },
     "carousel-inner > item > img": {
         "position": "absolute",

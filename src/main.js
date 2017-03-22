@@ -7,7 +7,38 @@ const {width, height, scale} = Dimensions.get("window"),
 
 export default StyleSheet.create({
     "ul": {
-        "listStyleType": "none"
+        "listStyleType": "none",
+        "listStyle": "none",
+        "marginTop": 10,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "borderTop": "solid 1px #CCC"
+    },
+    "li": {
+        "borderBottom": "solid 1px #CCC",
+        "paddingTop": 10,
+        "paddingRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "fontSize": 16,
+        "position": "relative"
+    },
+    "winner": {
+        "borderBottom": "solid 1px #CCC",
+        "paddingTop": 10,
+        "paddingRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "fontSize": 16,
+        "position": "absolute",
+        "right": 10,
+        "top": 10,
+        "color": "#999"
     },
     "navbar": {
         "marginBottom": 0
